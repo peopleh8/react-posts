@@ -1,0 +1,24 @@
+.post-item {
+  border: 1px solid teal;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.post-item + .post-item {
+  margin-top: 10px;
+}
+
+.post-info {
+  flex: 1;
+}
+
+.post-btns {
+  display: flex;
+  margin-left: 10px;
+}
+
+.post-btns *:not(:first-child) {
+  margin-left: 5px;
+}

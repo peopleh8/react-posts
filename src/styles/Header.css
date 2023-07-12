@@ -1,0 +1,22 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: teal;
+  height: 50px;
+  padding: 0 20px;
+}
+
+.header a {
+  color: #fff; 
+  text-decoration: none;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+nav a:not(:first-child) {
+  margin-left: 15px;
+}

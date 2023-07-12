@@ -1,0 +1,25 @@
+.pagination {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.pagination .page {
+  width: 40px;
+  height: 40px;
+  border: 1px solid teal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: teal;
+  cursor: pointer;
+  opacity: .4;
+}
+
+.pagination .page:not(:first-child) {
+  margin-left: 5px;
+}
+
+.pagination .page.current {
+  opacity: 1;
+}
